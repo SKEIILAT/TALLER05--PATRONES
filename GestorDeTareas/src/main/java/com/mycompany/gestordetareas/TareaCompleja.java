@@ -8,6 +8,10 @@ package com.mycompany.gestordetareas;
  *
  * @author USUARIO
  */
-public class TareaCompleja {
+public class TareaCompleja extends Tarea{
     
+    @Override
+    public  void visualizarTarea(Tarea t){
+        System.out.println("Visualizando tarea compleja... ");
+    }
 }
