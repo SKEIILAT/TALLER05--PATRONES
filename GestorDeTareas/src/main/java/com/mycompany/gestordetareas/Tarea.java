@@ -4,13 +4,21 @@
 
 package com.mycompany.gestordetareas;
 
+import java.util.Date;
+
 /**
  *
  * @author USUARIO
  */
-public class Tarea {
+public abstract class Tarea {
+    private int id;
+    private String titulo;
+    private String descripcion;
+    private int prioridad;
+    private Date fechaVencimiento;
+    private String estado;
+    
+    public abstract void visualizarTarea(VistaStrategy v);
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
+    
 }
