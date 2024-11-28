@@ -11,7 +11,7 @@ package com.mycompany.gestordetareas;
 public class TareaCompleja extends Tarea{
     
     @Override
-    public  void visualizarTarea(Tarea t){
+    public  void visualizarTarea(VistaStrategy v){
         System.out.println("Visualizando tarea compleja... ");
     }
 }
