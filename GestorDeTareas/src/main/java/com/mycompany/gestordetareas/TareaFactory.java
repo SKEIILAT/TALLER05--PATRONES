@@ -8,6 +8,7 @@ package com.mycompany.gestordetareas;
  *
  * @author USUARIO
  */
-public class TareaFactory {
+public interface TareaFactory {
     
+    public Tarea factoryMethod();
 }
