@@ -8,6 +8,11 @@ package com.mycompany.gestordetareas;
  *
  * @author USUARIO
  */
-public class TareaComplejaFactory {
+public class TareaComplejaFactory implements TareaFactory{
     
+    @Override
+    public Tarea factoryMethod(){
+        return new TareaCompleja();
+    }
 }
+
