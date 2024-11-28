@@ -8,6 +8,11 @@ package com.mycompany.gestordetareas;
  *
  * @author USUARIO
  */
-public class TareaSimpleFactory {
+public class TareaSimpleFactory implements TareaFactory {
+    
+    @Override
+    public Tarea factoryMethod(){
+        return new TareaSimple();
+    }
     
 }
