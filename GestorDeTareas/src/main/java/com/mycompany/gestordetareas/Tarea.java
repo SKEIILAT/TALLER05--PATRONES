@@ -20,6 +20,10 @@ public abstract class Tarea {
     
     public abstract void visualizarTarea(VistaStrategy v);
 
+    public Tarea() {
+        // Constructor sin parámetros
+    }
+
     public Tarea(int id, String titulo, String descripcion, int prioridad, Date fechaVencimiento, String estado) {
         this.id = id;
         this.titulo = titulo;
@@ -77,8 +81,6 @@ public abstract class Tarea {
         this.estado = estado;
     }
 
-
-    
 
     
 }
