@@ -1,3 +1,5 @@
+package com.mycompany.gestordetareas;
+
 public class VistaTablero implements VistaStrategy{
   @Override
   public void VisualizarTarea(Tarea tarea){

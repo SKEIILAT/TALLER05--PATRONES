@@ -4,12 +4,14 @@
  */
 package com.mycompany.gestordetareas;
 
+import java.util.Date;
+
 /**
  *
  * @author USUARIO
  */
 public class TareaSimple extends Tarea {
-    
+
     @Override
     public  void visualizarTarea(VistaStrategy v){
         System.out.println("Visualizando tarea simple... ");
